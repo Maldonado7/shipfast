@@ -27,7 +27,7 @@ npm run setup
 
 1. **Clone and Install**
 ```bash
-git clone https://github.com/shipfast/template.git my-app
+git clone https://github.com/Maldonado7/Template.git my-app
 cd my-app
 npm install
 ```
@@ -313,7 +313,7 @@ docker-compose down
 3. Add environment variables
 4. Deploy!
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/shipfast/template)
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/Maldonado7/Template)
 
 ### Deploy to Netlify
 ```bash
@@ -329,8 +329,8 @@ docker run -p 3000:3000 my-app
 
 ## 🤝 Community & Support
 
-- **GitHub Issues**: [Report bugs or request features](https://github.com/shipfast/template/issues)
-- **Discussions**: [Community discussions](https://github.com/shipfast/template/discussions)
+- **GitHub Issues**: [Report bugs or request features](https://github.com/Maldonado7/Template/issues)
+- **Discussions**: [Community discussions](https://github.com/Maldonado7/Template/discussions)
 - **Discord**: [Join our Discord](https://discord.gg/shipfast) 
 - **Twitter**: [@shipfast_dev](https://twitter.com/shipfast_dev)
 
@@ -354,4 +354,4 @@ If ShipFast helped you build something awesome, please:
 
 ---
 
-**Ready to ship fast?** 🚀 [Get the template](https://github.com/shipfast/template) and start building!
+**Ready to ship fast?** 🚀 [Get the template](https://github.com/Maldonado7/Template) and start building!
