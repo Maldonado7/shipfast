@@ -1,0 +1,39 @@
+# Template cleanup configuration
+# This file will be automatically deleted when someone uses this template
+
+name: Template Cleanup
+on:
+  create:
+  push:
+    branches: [main]
+
+jobs:
+  template-cleanup:
+    if: github.event.repository.name != 'shipfast-template'
+    runs-on: ubuntu-latest
+    steps:
+      - name: 🚀 Checkout
+        uses: actions/checkout@v4
+
+      - name: 🧹 Cleanup template files
+        run: |
+          # Remove template-specific files
+          rm -rf .github/template-cleanup.yml
+          
+          # Update package.json name
+          if [ -f package.json ]; then
+            sed -i 's/"name": "shipfast-template"/"name": "'${{ github.event.repository.name }}'"/' package.json
+          fi
+          
+          # Update README with new repo name
+          if [ -f README.md ]; then
+            sed -i 's/yourusername\/shipfast-template/'${{ github.repository }}'/g' README.md
+          fi
+
+      - name: 💾 Commit changes
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add .
+          git diff --staged --quiet || git commit -m "🎉 Initialize from ShipFast template"
+          git push

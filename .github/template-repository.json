@@ -1,0 +1,18 @@
+{
+  "name": "ShipFast Template",
+  "description": "🚀 The most comprehensive, production-ready Next.js starter template. Built with TypeScript, Supabase, modern authentication, real-time features, and everything you need to ship fast.",
+  "homepageUrl": "https://shipfast-template.vercel.app",
+  "topics": [
+    "nextjs",
+    "react",
+    "typescript",
+    "supabase",
+    "tailwindcss",
+    "template",
+    "starter",
+    "fullstack",
+    "authentication",
+    "realtime"
+  ],
+  "includeAllBranches": false
+}

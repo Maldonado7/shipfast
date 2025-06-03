@@ -1,0 +1,36 @@
+{
+  "name": "create-shipfast-app",
+  "version": "1.0.0",
+  "description": "Create a new ShipFast project with one command",
+  "type": "module",
+  "bin": {
+    "create-shipfast-app": "./create-shipfast-app.js"
+  },
+  "files": [
+    "create-shipfast-app.js"
+  ],
+  "scripts": {
+    "test": "node create-shipfast-app.js"
+  },
+  "keywords": [
+    "shipfast",
+    "nextjs",
+    "template",
+    "fullstack",
+    "react",
+    "cli"
+  ],
+  "author": "ShipFast Team",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/shipfast/shipfast.git"
+  },
+  "bugs": {
+    "url": "https://github.com/shipfast/shipfast/issues"
+  },
+  "homepage": "https://shipfast.dev",
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
