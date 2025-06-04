@@ -43,3 +43,8 @@ drizzle.config.ts.timestamp-*
 /playwright-report/
 /blob-report/
 /playwright/.cache/
+# Environment files
+.env
+.env.local
+.env.production
+!.env.example
