@@ -2,6 +2,11 @@
 
 Get your app running in **under 5 minutes**!
 
+## Prerequisites
+
+- Node.js 18+ (check with `node --version`)
+- If needed: `nvm install 20 && nvm use 20`
+
 ## ⚡ Quick Setup (3 Steps)
 
 ```bash

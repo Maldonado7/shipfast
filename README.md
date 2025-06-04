@@ -4,6 +4,11 @@ The most comprehensive, production-ready Next.js starter template. Built with Ty
 
 > **📊 Status**: Production-Ready Template | **📖 Full Overview**: [PROJECT-SUMMARY.md](./PROJECT-SUMMARY.md) | **🗂️ Structure**: [Interactive View](https://shipfast-template.vercel.app/structure) | **🎯 Demo**: [Live Preview](https://shipfast-template.vercel.app)
 
+## 📋 Requirements
+
+- Node.js 18.18.0 or higher (recommend v20 LTS)
+- npm 8.0.0 or higher
+
 ## 🚀 Get Started in 2 Minutes
 
 ### Option 1: Use GitHub Template (Recommended)
